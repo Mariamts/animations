@@ -1,0 +1,129 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	padding:2%;
+}
+.container{
+	width: 100%;
+	height:100%;
+	background:aqua;
+}
+.title{
+	margin-bottom: 12%;
+}
+.logo{
+	width:14%;
+	float: right;
+	margin:6% 8% 0 0;
+}
+.title h1{
+	font-size: 230%;
+	color:white;
+	margin:5% 0 0 5%;
+}
+.title:first-child{
+	margin-left:17%
+}
+.d-inline-block{
+	display: inline-block;
+}
+.b-size{
+	width:44%;
+	height: 48%;
+	background:yellow;
+}
+.box-1{
+	float:left;
+	margin:2.6% 0 0 5%;
+	animation-name: color-change;
+    animation-duration: 10s;
+
+}
+.box-2{
+	float: right;
+	margin: 2.6% 5% 0 0; 
+	animation-name: color-change;
+    animation-duration: 10s;
+
+}
+.box-img-1{
+	float: right;
+	width: 20%;
+	margin:2%;
+}
+.box-img-2{
+	float: left;
+	width: 20%;
+	margin: 2%;
+}
+.box-p1{
+	width: 80%;
+	margin: 2%;
+}
+.box-p2{
+	margin: 2%;
+}
+
+.logo{
+	animation: animation 5s infinite 0.2s;
+}
+
+.box-img-1{
+	width: 20%;
+	animation: anim 5s infinite 0.2s;
+	
+}
+
+.box-img-1:hover{
+	width: 25%;
+  
+}
+
+.box-img-2{
+	width: 20%;
+	animation:anim 5s infinite 0.2s; 
+	
+}
+
+.box-img-2:hover{
+	width: 25%;
+   
+}
+
+.h1{
+  animation-name: color-change;
+  animation-duration: 5s;
+}
+
+
+@keyframes anim{
+	0%{
+
+		transition: width 2s, height 2s, transform 2s;
+	}
+
+	50%{
+		transform: rotate(360deg);
+	}
+
+}
+
+
+
+@keyframes animation{
+	0%{
+		transition: width 2s, height 2s, transform 2s;
+
+	}
+	50%{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes color-change{
+	from {color: black;}
+    to {color: lightblue;}
+}
+
